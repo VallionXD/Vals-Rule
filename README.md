@@ -1,10 +1,7 @@
-# VallionXD's Markdown Storage
-A full document on all stuff VallionXD want's to remember / use / document!
-
-GitHub Gist: https://gist.github.com/VallionXD/24ca1277d51dd251b18dda56613bf298
-
 ## Val's Rule: String Encoding
 > This section is all about my own String/Text Encoding, made by me! This fully documents how to use "Val's Rule" and examples to help understand.
+
+GitHub Gist: https://gist.github.com/VallionXD/24ca1277d51dd251b18dda56613bf298
 
 ### What is Val's Rule?
 Val's Rule is a custom encoding method designed to transform messages into a coded format. The resulted message is still decodable using Val's Rule, if this rule is done incorrectly, decoding the message will be much harder as it is improperly encoded.
