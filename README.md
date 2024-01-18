@@ -1,12 +1,13 @@
-## Val's Rule: String Encoding
+# Val's Rule: String Encoding
 > This section is all about my own String/Text Encoding, made by me! This fully documents how to use "Val's Rule" and examples to help understand.
 
 GitHub Gist: https://gist.github.com/VallionXD/24ca1277d51dd251b18dda56613bf298
+Webpage: https://vallionxd.github.io/Vals-Rule
 
-### What is Val's Rule?
+## What is Val's Rule?
 Val's Rule is a custom encoding method designed to transform messages into a coded format. The resulted message is still decodable using Val's Rule, if this rule is done incorrectly, decoding the message will be much harder as it is improperly encoded.
 
-### How can I create my own "Pattern"?
+## How can I create my own "Pattern"?
 Creating a "Pattern" is simple, a pattern will help decode your message using Val's Rule. Here is how it can be done, this is my example "Pattern" below.
 
 **Val**-*v88W4V*-*a9sZ3d*-*b6tY7u*-*c5xX2z*-*d4wW1q*-*e3vV8r*-*f2uU9s*-*g1tT0y*-*h7sS5x*-*i6rR4v*-**6**
@@ -19,7 +20,7 @@ So you may be thinking, that looks like a bunch of garbage, but it isn't. Here's
 
 So that's the "Pattern" broken down simply.
 
-### How can I use Val's Rule?
+## How can I use Val's Rule?
 Using Val's Rule is quite simple, once you've got your pattern you can get started! Just note that by hand/manually this process will take a very long time. My pattern  for this example is below.
 
 **Val**-*v88W4V*-*a9sZ3d*-*b6tY7u*-*c5xX2z*-*d4wW1q*-*e3vV8r*-*f2uU9s*-*g1tT0y*-*h7sS5x*-*i6rR4v*-**(6)**
@@ -47,7 +48,7 @@ You can see, that this isn't so hard once broken down. But you may see it will t
 **"Pattern"**: A pattern for Val's Rule, used to help encode and decode a "Message"
 **"Message"**: A encoded string using Val's Rule, and a "Pattern".
 
-### Encode string in Val's Rule: JavaScript
+## Encode string in Val's Rule: JavaScript
 
 ```JavaScript
 // Encode in Val's Rule.
@@ -91,7 +92,7 @@ console.log(encodedString);
 
 The provided JavaScript function `encodeValsRule` automates the encoding process. By inputting a pattern and a string, the function inserts randomized strings between each letter according to Val's Rule. The encoded message is then logged to the console.
 
-### Decode string in Val's Rule: JavaScript
+## Decode string in Val's Rule: JavaScript
 ``` JavaScript
 const decodeValsRule = (pattern, encodedString) => {
     // Split the pattern to get the randomized strings, and the length of them.
@@ -123,5 +124,5 @@ console.log(decodedString);
 ```
 The corresponding decoding function, `decodeValsRule`, takes a pattern and an encoded string. It identifies and removes the randomized strings, reconstructing the original message. The decoded message is then logged to the console.
 
-### Conclusion
+## Conclusion
 Val's Rule provides a straightforward yet effective method for encoding and decoding messages. The JavaScript functions presented offer a practical way to implement Val's Rule encoding and decoding, streamlining the process for users. Experimenting with different patterns and messages allows for customization and exploration of this unique encoding approach.
