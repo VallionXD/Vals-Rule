@@ -26,8 +26,8 @@ function decode() {
 }
 
 function decodeClear() {
-  const dI = document.getElementById("decodeInput").value;
-  const dO = document.getElementById("decodeOutput").value;
+  const dI = document.getElementById("decodeInput");
+  const dO = document.getElementById("decodeOutput");
 
   // Set to blank
   dI.value = "";
