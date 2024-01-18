@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Val's Rule Encode/Decode</title>
+
+    <!-- Stylesheets & Page Icon -->
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/encodeValsRule.js"></script>
+    <script tyle="text/javascript" src="js/decodeValsRule.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="title">Val's Rule Encode/Decode</h2>
+
+      <!-- Pattern Input -->
+      <input type="text" id="pattern" placeholder="Paste pattern here" value="Val-v88W4V-a9sZ3d-b6tY7u-c5xX2z-d4wW1q-e3vV8r-f2uU9s-g1tT0y-h7sS5x-i6rR4v-6">
+
+      <!-- Encode String -->
+      <h3>Encode</h3>
+      <textarea id="encodeInput" placeholder="Plain text here">Hello, world!</textarea>
+      <br>
+      <button onclick="encode()">Encode</button> <button onclick="encodeClear()">Clear</button>
+      <br><br>
+      <input id="encodeOutput" type="text" class="output" placeholder="Output appears here" readonly>
+
+      <!-- Decode String -->
+      <h3>Decode</h3>
+      <textarea id="decodeInput" placeholder="Encoded string here">Hb6tY7uei6rR4vli6rR4vlc5xX2zo6,h7sS5x f2uU9sw6oe3vV8rrb6tY7ulh7sS5xdb6tY7u!</textarea>
+      <br>
+      <button onclick="decode()">Decode</button> <button onclick="decodeClear()">Clear</button>
+      <br><br>
+      <input id="decodeOutput" type="text" class="output" placeholder="Output appears here" readonly>
+      <br><br>
+      <a class="docs-link" href="docs/index.html">Click here to see documentation!</a>
+    </div>
+
+    <!-- Page Script -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+
+</html>
