@@ -2,6 +2,7 @@
 > This section is all about my own String/Text Encoding, made by me! This fully documents how to use "Val's Rule" and examples to help understand.
 
 GitHub Gist: https://gist.github.com/VallionXD/24ca1277d51dd251b18dda56613bf298
+
 Webpage: https://vallionxd.github.io/Vals-Rule
 
 ## What is Val's Rule?
